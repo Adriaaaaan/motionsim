@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script src="/socket.io/socket.io.js"></script>
+<script>
+    var ioSocket = io();
+    ioSocket.on('connection', function(socket){
+        console.log('a user connected');
+
+    });
+    ioSocket.on('update', function(message){
+
+    });
+</script>
+
+hello babe
+</body>
+</html>
